@@ -49,7 +49,7 @@ kubectl get svc -n awx
 ```
 
 ### Récupérer l'url
-````
+```
 minikube service awx-service -n awx --url
 ```
 
