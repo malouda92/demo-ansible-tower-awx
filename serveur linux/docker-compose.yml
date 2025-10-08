@@ -1,0 +1,8 @@
+services:
+  linux-server:
+    image: ubuntu:22.04
+    container_name: demo-linux-server
+    command: sleep infinity
+    tty: true
+    ports:
+      - "2222:22"

@@ -1,0 +1,9 @@
+apiVersion: awx.ansible.com/v1beta1
+kind: AWX
+metadata:
+  name: awx
+  namespace: awx
+spec:
+  service_type: NodePort
+  ingress_type: none
+  # tu peux ajouter des options comme le stockage ou le hostname ici si besoin
